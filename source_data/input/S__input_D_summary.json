@@ -1,0 +1,90 @@
+{
+  "study": "OCI stage4A and stage4B frozen-train-only recalculation",
+  "model_key": "ENet_one_se_thr70",
+  "n_total": 275,
+  "n_train": 220,
+  "n_test": 55,
+  "model_features": [
+    "Color_S",
+    "Struct_num_gaps",
+    "Struct_gap_ratio"
+  ],
+  "coefficients_standardized": [
+    0.2060448246825433,
+    0.4209881279178596,
+    0.16476006516207578
+  ],
+  "intercept_standardized": 1.6467268631127714e-16,
+  "x_mean": [
+    33.013829337509776,
+    95.83181818181818,
+    0.029408988916175504
+  ],
+  "x_sd_ddof1": [
+    11.938237915730506,
+    64.43958542848567,
+    0.02001233520690893
+  ],
+  "target_standardization": {
+    "GR_mean": 3240.8135318181817,
+    "GR_sd_ddof1": 1347.763684289105,
+    "DD_mean": 25.12907272727272,
+    "DD_sd_ddof1": 14.483577838024704
+  },
+  "OCI_raw_train_min": -0.8837640629078705,
+  "OCI_raw_train_max": 2.434802429300142,
+  "OCI_score_train_min": 0.0,
+  "OCI_score_train_max": 100.0,
+  "OCI_grade_centers_train_only": [
+    11.52894921371065,
+    31.847722281412494,
+    67.41588753616922
+  ],
+  "OCI_grade_score_boundaries_train_only": [
+    21.688335747561574,
+    49.631804908790855
+  ],
+  "kmeans": {
+    "k": 3,
+    "random_state": 42,
+    "n_init": 10,
+    "source": "training score only",
+    "k_selection": "three ordinal classes specified by research design, not selected with mechanical outcomes"
+  },
+  "n_test_scores_below_zero": 0,
+  "n_test_scores_above_hundred": 0,
+  "grade_counts_train": [
+    109,
+    81,
+    30
+  ],
+  "grade_counts_test": [
+    28,
+    20,
+    7
+  ],
+  "grade_counts_all": [
+    137,
+    101,
+    37
+  ],
+  "n_grade_changed_from_original": 0,
+  "old_new_grade_adjusted_rand_index_descriptive": 1.0,
+  "max_absolute_OCI_score_difference_from_original": 0.05287196524088955,
+  "train_test_grade_distribution_chi2": 0.045925632216013076,
+  "train_test_grade_distribution_pvalue": 0.9772988228715334,
+  "chi2_df": 2,
+  "disclaimer": "No independent ground-truth grading available. Same-category comparison is not predictive accuracy. The 55 historical test samples have been viewed in previous analyses. K=3 is design driven.",
+  "input_sha256": {
+    "cauliflower_analysis_final2.csv": "a4cf7c6cf9d5cfd0e6877feaad987118899d53f0e34f15b980b5077b77a01625",
+    "Cauliflower_Final_Grading_Auto.csv": "4ed238326695703d143c7e5a73e33be3a89a4864738867e6e1ad515046fa3c80",
+    "full_training_ols_parameters.json": "aa607774d913060bc8501247ded31edbafb0eff50e25975b6edd1b2c5148dae9"
+  },
+  "software_versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0"
+  }
+}

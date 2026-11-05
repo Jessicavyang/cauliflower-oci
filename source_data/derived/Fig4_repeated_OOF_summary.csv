@@ -1,0 +1,2 @@
+﻿model,n_outer_repeats,R2_mean,R2_sd_between_repeats,RMSE_mean,RMSE_sd_between_repeats,MAE_mean,MAE_sd_between_repeats
+ENet_one_se_thr70,3,0.48224492750117931,0.0037538776859914998,0.68925977717059927,0.0053548269855918998,0.54501348346659706,0.0012650071167377001

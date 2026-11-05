@@ -1,0 +1,157 @@
+{
+  "Fixed_A_3features": {
+    "features": [
+      "Struct_num_gaps",
+      "Struct_gap_ratio",
+      "Color_S"
+    ],
+    "intercept_standardized": 1.6467268631127717e-16,
+    "intercept_raw": -1.4379910610862912,
+    "coefficients_standardized": [
+      0.4209881279178591,
+      0.16476006516207606,
+      0.20604482468254354
+    ],
+    "x_mean": [
+      95.83181818181818,
+      0.029408988916175504,
+      33.013829337509776
+    ],
+    "x_sd_ddof1": [
+      64.43958542848567,
+      0.02001233520690893,
+      11.938237915730506
+    ],
+    "target_parameters": {
+      "GR_mean": 3240.8135318181817,
+      "GR_sd_ddof1": 1347.763684289105,
+      "DD_mean": 25.12907272727272,
+      "DD_sd_ddof1": 14.483577838024704
+    },
+    "fallback_intercept_only": false
+  },
+  "ENet_one_se_thr60": {
+    "features": [
+      "Color_S",
+      "Struct_num_gaps",
+      "Struct_gap_ratio"
+    ],
+    "intercept_standardized": 1.6467268631127714e-16,
+    "intercept_raw": -1.4379910610862907,
+    "coefficients_standardized": [
+      0.2060448246825433,
+      0.4209881279178596,
+      0.16476006516207578
+    ],
+    "x_mean": [
+      33.013829337509776,
+      95.83181818181818,
+      0.029408988916175504
+    ],
+    "x_sd_ddof1": [
+      11.938237915730506,
+      64.43958542848567,
+      0.02001233520690893
+    ],
+    "target_parameters": {
+      "GR_mean": 3240.8135318181817,
+      "GR_sd_ddof1": 1347.763684289105,
+      "DD_mean": 25.12907272727272,
+      "DD_sd_ddof1": 14.483577838024704
+    },
+    "fallback_intercept_only": false
+  },
+  "ENet_one_se_thr70": {
+    "features": [
+      "Color_S",
+      "Struct_num_gaps",
+      "Struct_gap_ratio"
+    ],
+    "intercept_standardized": 1.6467268631127714e-16,
+    "intercept_raw": -1.4379910610862907,
+    "coefficients_standardized": [
+      0.2060448246825433,
+      0.4209881279178596,
+      0.16476006516207578
+    ],
+    "x_mean": [
+      33.013829337509776,
+      95.83181818181818,
+      0.029408988916175504
+    ],
+    "x_sd_ddof1": [
+      11.938237915730506,
+      64.43958542848567,
+      0.02001233520690893
+    ],
+    "target_parameters": {
+      "GR_mean": 3240.8135318181817,
+      "GR_sd_ddof1": 1347.763684289105,
+      "DD_mean": 25.12907272727272,
+      "DD_sd_ddof1": 14.483577838024704
+    },
+    "fallback_intercept_only": false
+  },
+  "ENet_one_se_thr80": {
+    "features": [
+      "Color_S",
+      "Struct_num_gaps",
+      "Struct_gap_ratio"
+    ],
+    "intercept_standardized": 1.6467268631127714e-16,
+    "intercept_raw": -1.4379910610862907,
+    "coefficients_standardized": [
+      0.2060448246825433,
+      0.4209881279178596,
+      0.16476006516207578
+    ],
+    "x_mean": [
+      33.013829337509776,
+      95.83181818181818,
+      0.029408988916175504
+    ],
+    "x_sd_ddof1": [
+      11.938237915730506,
+      64.43958542848567,
+      0.02001233520690893
+    ],
+    "target_parameters": {
+      "GR_mean": 3240.8135318181817,
+      "GR_sd_ddof1": 1347.763684289105,
+      "DD_mean": 25.12907272727272,
+      "DD_sd_ddof1": 14.483577838024704
+    },
+    "fallback_intercept_only": false
+  },
+  "ENet_one_se_thr90": {
+    "features": [
+      "Color_S",
+      "Struct_num_gaps",
+      "Struct_gap_ratio"
+    ],
+    "intercept_standardized": 1.6467268631127714e-16,
+    "intercept_raw": -1.4379910610862907,
+    "coefficients_standardized": [
+      0.2060448246825433,
+      0.4209881279178596,
+      0.16476006516207578
+    ],
+    "x_mean": [
+      33.013829337509776,
+      95.83181818181818,
+      0.029408988916175504
+    ],
+    "x_sd_ddof1": [
+      11.938237915730506,
+      64.43958542848567,
+      0.02001233520690893
+    ],
+    "target_parameters": {
+      "GR_mean": 3240.8135318181817,
+      "GR_sd_ddof1": 1347.763684289105,
+      "DD_mean": 25.12907272727272,
+      "DD_sd_ddof1": 14.483577838024704
+    },
+    "fallback_intercept_only": false
+  }
+}

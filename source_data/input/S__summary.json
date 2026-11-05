@@ -1,0 +1,97 @@
+{
+  "N_inbred_rows": 230,
+  "N_unique_inbred_row_ids": 230,
+  "N_unique_source_filenames": 226,
+  "N_duplicate_source_filenames": 4,
+  "N_records_with_ambiguous_source_filename": 8,
+  "all_230_three_feature_source_alignment_within_1e_8": true,
+  "f2_train_N": 220,
+  "f2_test_N": 55,
+  "f2_train_grade_counts": [
+    109,
+    81,
+    30
+  ],
+  "inbred_grade_counts": [
+    107,
+    94,
+    29
+  ],
+  "inbred_no_ambiguous_grade_counts": [
+    102,
+    92,
+    28
+  ],
+  "inbred_vs_F2_train_chisquare_exploratory": {
+    "statistic": 0.7793445960818851,
+    "pvalue": 0.6772787837203886,
+    "df": 2,
+    "cramers_v": 0.04161582487686585
+  },
+  "inbred_no_ambiguous_chisquare_exploratory": {
+    "statistic": 0.9915854992730103,
+    "pvalue": 0.6090878616735445,
+    "df": 2
+  },
+  "inbred_score_range": [
+    -0.8748585248306743,
+    88.14025705165419
+  ],
+  "inbred_mean_score": 27.50957816656946,
+  "F2_train_mean_score": 26.630898159881095,
+  "inbred_score_below_0_count": 1,
+  "inbred_score_above_100_count": 0,
+  "score_below0_rows": [
+    "24AU_024"
+  ],
+  "number_inbred_with_any_feature_outside_F2_train_range": 58,
+  "proportion_inbred_with_any_feature_outside_F2_train_range": 0.25217391304347825,
+  "max_abs_OCI_raw_difference_vs_original_supplement": 0.04359580305744171,
+  "max_abs_OCI_score_difference_vs_original_supplement": 0.09625286440545722,
+  "number_grade_changes_vs_supplement": 0,
+  "mean_score_shift_breakdown": [
+    {
+      "feature": "Color_S",
+      "beta_standardized": 0.2060448246825433,
+      "F2_train_mean": 33.013829337509776,
+      "inbred_mean": 53.01852780118097,
+      "mean_delta_raw_units": 20.004698463671197,
+      "OCI_score_mean_shift_contribution": 10.404062842184251
+    },
+    {
+      "feature": "Struct_num_gaps",
+      "beta_standardized": 0.4209881279178596,
+      "F2_train_mean": 95.83181818181818,
+      "inbred_mean": 51.38260869565217,
+      "mean_delta_raw_units": -44.449209486166005,
+      "OCI_score_mean_shift_contribution": -8.750454859547505
+    },
+    {
+      "feature": "Struct_gap_ratio",
+      "beta_standardized": 0.16476006516207578,
+      "F2_train_mean": 0.029408988916175504,
+      "inbred_mean": 0.026285372639283745,
+      "mean_delta_raw_units": -0.0031236162768917587,
+      "OCI_score_mean_shift_contribution": -0.7749279759488715
+    }
+  ],
+  "mean_score_shift_breakdown_sum": 0.8786800066878747,
+  "model_frozen_from": "Stage3B training-only ElasticNet one_se threshold70 + training-only Stage4A/B minmax and kmeans bounds",
+  "source_matching_method": "rowwise equality of all 3 features; no shared stable accession/file ID across the two 230-row inputs",
+  "limitations": [
+    "No inbred GR/DD, expert grade or 3D compactness reference: cannot estimate out-of-population predictive accuracy or R².",
+    "Year, environment, genetic background and imaging protocols may be confounded.",
+    "Source filename collisions with inconsistent features need manual provenance resolution before claiming 230 independent plants.",
+    "Category-feature gradient is built into OCI and is not independent biological validation.",
+    "Current training data and historical test data have already been explored in prior analyses."
+  ],
+  "SHA256_inputs": {
+    "full_training_ols_parameters.json": "aa607774d913060bc8501247ded31edbafb0eff50e25975b6edd1b2c5148dae9",
+    "cauliflower_geometric_results_final.csv": "61829ab71a6a9181d24f7012fbd1ceda09a8be1ba683e815c472dcc5b3cb54e0",
+    "Supplement_tables_original.xlsx": "efbc65d7d776e88f1919d9ec5bfb52bda745d680a24353b43641de6f86cf5966",
+    "OCI_recalculated_275.csv": "c77ff56d54238f5d9386cc8e4534a9b7cbe9463fd032c5f329990973cf7d52cc",
+    "Supplement_Table3_230_extracted.csv": "72157465a7d15b4dcd3283a7e79f670a6e68f34cbc602bf2d3d1f64eef1ed038",
+    "OCI_stage4_ab_summary.json": "5d1947c643151f08432ebdf27571f3f98af3d63a343af223d2e7ef9301a0bcc4",
+    "OCI_thresholds_train_only.csv": "42b96d46371345e8d305ec944d826546faa571f730155a5cb23494d96730ce30"
+  }
+}

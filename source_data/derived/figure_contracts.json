@@ -1,0 +1,64 @@
+{
+  "backend": "python",
+  "source": "Existing project Python plotting workflow",
+  "target": "Smart Agricultural Technology",
+  "main_export_width_mm": 190,
+  "min_font_pt": 6,
+  "export": "PDF + SVG; TIFF 600 dpi combination and 1000 dpi line-only; PNG 300 dpi preview",
+  "preserve": "Original data, photos, panel roles/order/palette retained; only data layers/units/labels repaired.",
+  "sources_not_mutated": true,
+  "contracts": {
+    "Fig1": {
+      "archetype": "Schematic-led composite",
+      "claim": "Six original feature illustrations describe image outputs; radial/texture views are illustrative, not implemented GLCM evidence."
+    },
+    "Fig2": {
+      "archetype": "Quantitative grid",
+      "claim": "Full-cohort associations are descriptive; the 275-record matrix is not the training feature-screening pool."
+    },
+    "Fig3": {
+      "archetype": "Quantitative grid",
+      "claim": "Eight training variables have three PCs explaining 86.00897%; PCA is visualization, not the OCI predictor."
+    },
+    "Fig4": {
+      "archetype": "Quantitative grid",
+      "claim": "Stable three-feature selection and saved prediction metrics quantify calibration against an operational mechanical reference."
+    },
+    "Fig5": {
+      "archetype": "Single quantitative panel",
+      "claim": "Training-fixed thresholds assign three research grades to the 275 frozen OCI scores."
+    },
+    "Fig6": {
+      "archetype": "Quantitative grid",
+      "claim": "Mechanical and OCI grades agree in 64% and exhibit neutral bidirectional discordance, without independent structural truth."
+    },
+    "Fig7": {
+      "archetype": "Quantitative grid",
+      "claim": "Frozen parameters describe 222 provenance-screened records, with 56 outside at least one training input range."
+    },
+    "SupplementFig1": {
+      "archetype": "Image plate",
+      "claim": "Original curd photos illustrate compact and loose morphotypes."
+    },
+    "SupplementFig2": {
+      "archetype": "Quantitative grid",
+      "claim": "275 recorded mechanical and image-feature distributions retain all observations."
+    },
+    "SupplementFig3": {
+      "archetype": "Quantitative grid",
+      "claim": "Archived k sensitivity describes clustering, without claiming k=3 is a biological optimum."
+    },
+    "SupplementFig4": {
+      "archetype": "Image plate + quant",
+      "claim": "Three retained matched photographs illustrate TA-Compact/OCI-non-Compact discordance; original conflicting d is omitted by author decision."
+    },
+    "SupplementFig5": {
+      "archetype": "Quantitative grid",
+      "claim": "Saved first-repeat OOF and historical55 observations are compared with their corresponding predictions."
+    }
+  },
+  "author_approved_layout_exception": "SupplementFig4: three equal horizontal panels replace the previous two-by-two layout.",
+  "font_family": "Times New Roman",
+  "font_substitution_allowed": false,
+  "font_scope": "Scientific labels, panel letters, values and symbols; tiny software UI remains photographic content."
+}

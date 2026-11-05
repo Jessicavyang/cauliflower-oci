@@ -1,0 +1,2 @@
+﻿model,n_holdout,n_features,features,R2,RMSE,MAE
+ENet_one_se_thr70,55,3,Color_S;Struct_num_gaps;Struct_gap_ratio,0.3769678839263379,0.64563313434232916,0.49312320057007608
