@@ -1,0 +1,16 @@
+﻿outer_repeat,outer_fold,selected_policy,selection_metric,inner_policy_cv_mse,inner_policy_mean_model_size,n_outer_train
+1,1,ENet_min_mse_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.4607097882562916,3.6666666666666665,176
+1,2,ENet_min_mse_thr70,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.47176624551093044,4.0,176
+1,3,ENet_min_mse_thr70,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.48219191965460784,5.0,176
+1,4,ENet_min_mse_thr70,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.5008933906009745,3.3333333333333335,176
+1,5,ENet_min_mse_thr70,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.5002825414693067,4.333333333333333,176
+2,1,ENet_one_se_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.4815523742341604,2.6666666666666665,176
+2,2,ENet_min_mse_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.4774801383956712,4.0,176
+2,3,ENet_one_se_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.5213731891251355,2.6666666666666665,176
+2,4,ENet_one_se_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.439187152885504,3.0,176
+2,5,ENet_min_mse_thr80,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.5011429658894095,3.6666666666666665,176
+3,1,ENet_min_mse_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.4634465671604655,5.0,176
+3,2,ENet_min_mse_thr70,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.4849127186582138,4.0,176
+3,3,ENet_one_se_thr70,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.43611759927443655,3.0,176
+3,4,ENet_min_mse_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.4991153601875799,3.6666666666666665,176
+3,5,ENet_one_se_thr60,3-fold inner policy-CV OOF MSE; tie-break smaller model,0.4770810511969742,3.0,176

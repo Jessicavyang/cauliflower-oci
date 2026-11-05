@@ -1,0 +1,35 @@
+{
+  "audit_scope": "Method policy selection among two ElasticNet rules and four frequency cutoffs, FULLY INSIDE outer training folds",
+  "n_train": 220,
+  "test_samples_used": 0,
+  "outer_folds": 5,
+  "outer_repeats": 3,
+  "policy_inner_folds": 3,
+  "stability_reps_each_policy_inner_fold": 100,
+  "elastic_net_cv_folds": 10,
+  "policies": [
+    "ENet_one_se_thr60",
+    "ENet_one_se_thr70",
+    "ENet_one_se_thr80",
+    "ENet_one_se_thr90",
+    "ENet_min_mse_thr60",
+    "ENet_min_mse_thr70",
+    "ENet_min_mse_thr80",
+    "ENet_min_mse_thr90"
+  ],
+  "selection_objective": "policy inner CV OOF MSE, no outer val access",
+  "run_started": "2026-11-03T07:00:08.831870+00:00",
+  "seed": 42,
+  "reference_input_hashes": {
+    "cauliflower_analysis_final2.csv": "a4cf7c6cf9d5cfd0e6877feaad987118899d53f0e34f15b980b5077b77a01625",
+    "Cauliflower_Final_Grading_Auto.csv": "4ed238326695703d143c7e5a73e33be3a89a4864738867e6e1ad515046fa3c80"
+  },
+  "source_stage3b_config_sha256": "79824d9968ed968934f6a0903d41202578ef29dd45fdf29d27169d09875c1448",
+  "note": "Retrospective sensitivity analysis. Does not retroactively preregister or erase previous method exploration.",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  }
+}

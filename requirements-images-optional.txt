@@ -1,0 +1,4 @@
+# Optional; not installed or version-validated by this packaging run.
+numpy
+pandas
+opencv-python

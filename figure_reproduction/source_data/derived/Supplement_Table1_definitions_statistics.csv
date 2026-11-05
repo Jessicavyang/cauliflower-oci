@@ -1,0 +1,23 @@
+﻿feature,n,min,max,mean,SD,CV_percent,unit,definition
+GR,275,38.892000000000003,7794.6530000000002,3225.7658436363636,1326.3130663455031,41.11622264715804,gf s^-1,Force-time gradient exported as Gradient F-T 1:2 (g/sec interpreted as gram-force per second). Marker interval and calculation rule pending.
+DD,275,8.2040000000000006,84.060000000000002,24.849065454545453,14.059101678379005,56.577989639474666,mm,Displacement from the 5 gf trigger reference to the 30000 gf target load; software zero/readout/interpolation pending.
+Color_R,275,127.34197405068164,214.67105229636303,171.1819166224426,17.767789273970934,10.379477940511334,digital intensity (8-bit),"Mean Color_R channel within the filled outer-curd mask, including dark pixels; no pigment/physical-scale calibration."
+Color_G,275,124.1862309865721,211.52305816130053,168.25964209552939,17.236727673681294,10.244124769916688,digital intensity (8-bit),"Mean Color_G channel within the filled outer-curd mask, including dark pixels; no pigment/physical-scale calibration."
+Color_B,275,110.65022556792066,197.49210740508013,153.68491608318953,17.699518061727652,11.516756824818719,digital intensity (8-bit),"Mean Color_B channel within the filled outer-curd mask, including dark pixels; no pigment/physical-scale calibration."
+Color_H,275,22.806907149350739,72.730748315336555,40.477660079260296,10.865186764729883,26.84242800461908,digital intensity (8-bit),"Mean Color_H channel within the filled outer-curd mask, including dark pixels; no pigment/physical-scale calibration."
+Color_S,275,15.070608170494973,72.887984053309751,32.167719615846167,11.379860533856167,35.376646743247306,digital intensity (8-bit),"Mean Color_S channel within the filled outer-curd mask, including dark pixels; no pigment/physical-scale calibration."
+Color_V,275,127.55531363930484,215.00990965260905,172.01918103516121,17.485819045805265,10.165040282473566,digital intensity (8-bit),"Mean Color_V channel within the filled outer-curd mask, including dark pixels; no pigment/physical-scale calibration."
+Morph_Circularity,275,0.13313328725911019,0.57545517187071782,0.35983505575790764,0.074811439017083509,20.790481032902942,dimensionless,4*pi*contour area / perimeter^2.
+Morph_Solidity,275,0.83500806751168721,0.95457673908416885,0.89629657251223216,0.022071307341286036,2.4625004734116418,dimensionless,Contour area / convex-hull area.
+Morph_Compactness,275,0.0019128999999999999,0.004669266,0.0027827196254545457,0.0004803881375451408,17.263260486283141,pixel^-1,Perimeter / contour area; not an absolute compactness truth.
+Morph_Ellipticity,275,0.40304979037822669,0.78017420100000001,0.58408564406375196,0.053842651245703851,9.2182801945098003,dimensionless,Minor/major axis ratio of fitted ellipse.
+Size_Area,275,1519893,10233852.5,5011364.876363636,1580532.0407582293,31.538953553609538,pixel^2,OpenCV contourArea output in pixels squared.
+Size_Perimeter,275,5807.8341410160074,25495.58580553532,13388.715884563171,3147.4835353217991,23.508479546950149,pixel,OpenCV arcLength output in pixels.
+Struct_num_gaps,275,19,365,96.236363636363635,64.160884585674097,66.67010489726195,count,Number of 8-connected dark components inside filled outer-curd mask with area >5 pixels.
+Struct_gap_ratio,275,0.0044045170000000002,0.1233893525913593,0.029062284543854879,0.019873527100781982,68.382535690863889,fraction,All dark pixels inside the filled outer-curd mask divided by that mask area; includes dark components <=5 pixels.
+Struct_mean_gap_area,275,318.85245901639342,5744.732876712329,1638.2808577377655,932.73507525390528,56.933771205865192,pixel^2,Mean retained component area (>5 pixels).
+Struct_max_gap_area,275,3317,322287,33265.534545454546,33160.727996597321,99.684939531892951,pixel^2,Largest retained component area (>5 pixels).
+Struct_FractalDim,275,-0.44256193999999999,1.3794040155127594,0.81020141281649494,0.52225475185284986,64.459866841917858,algorithm output (dimensionless),Restored box-counting output from thresholded full grayscale image; 37 negative outputs preclude anatomical fractal interpretation.
+Text_Contrast,275,3.3339342529202729,13.223528264775885,6.6652900944606888,1.8191891720680589,27.293473296532571,digital intensity,Standard deviation of Laplacian response; not GLCM contrast.
+Text_Entropy,275,3.9383668899536128,5.2211446762084961,4.6587809874826496,0.22525288776190944,4.8350177517922726,nat,Entropy of masked grayscale intensity histogram; not a GLCM quantity.
+Text_ASM,275,0.0062345339999999999,0.029915363,0.013466693664593408,0.003708217924430299,27.536216511554983,dimensionless,Sum of squared masked grayscale histogram probabilities; not a GLCM quantity.

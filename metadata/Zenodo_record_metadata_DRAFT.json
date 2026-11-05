@@ -1,0 +1,65 @@
+{
+  "local_draft_only": true,
+  "title": "Data and code for A Digital Phenotype for Cauliflower Curd Compactness Integrating Sectional Gap and Color Signals",
+  "resource_type": "dataset",
+  "version": "v1-local-preparation",
+  "publication_date": null,
+  "doi": null,
+  "creators_status": "PROPOSED_FROM_AUTHOR_CONFIRMED_MANUSCRIPT_ORDER_REQUIRES_DATASET_CREATOR_CONFIRMATION",
+  "creators": [
+    {
+      "given_name": "Yingxia",
+      "family_name": "Yang"
+    },
+    {
+      "given_name": "Ying",
+      "family_name": "Zhang"
+    },
+    {
+      "given_name": "Jing",
+      "family_name": "Wang"
+    },
+    {
+      "given_name": "Ruifang",
+      "family_name": "Zhai"
+    },
+    {
+      "given_name": "Rui",
+      "family_name": "Chen"
+    },
+    {
+      "given_name": "Qingkuo",
+      "family_name": "Lan"
+    },
+    {
+      "given_name": "Yong",
+      "family_name": "Wang"
+    },
+    {
+      "given_name": "Deling",
+      "family_name": "Sun"
+    },
+    {
+      "given_name": "Xingwei",
+      "family_name": "Yao"
+    },
+    {
+      "given_name": "Xianhong",
+      "family_name": "Ge"
+    }
+  ],
+  "licenses": [],
+  "license_status": "NOT_SELECTED_NO_LICENSE_GRANTED",
+  "keywords": [
+    "cauliflower",
+    "Brassica oleracea",
+    "sectional image phenotyping",
+    "OCI",
+    "force–time gradient",
+    "reproducibility"
+  ],
+  "related_identifiers": [],
+  "funding": [],
+  "description": "Frozen data, saved predictions, image and mechanical-result provenance, and analysis code for an operational two-dimensional longitudinal-section phenotype calibrated to a GR/DD mechanical composite. The F2 cohort comprises 220 training and 55 historical test records. The advanced-inbred application comprises 222 retained records with a separately preserved 230-record archive. Available images and unresolved linkages are identified in manifests. These data do not establish independent anatomical accuracy or cross-environment predictive validation. The original 198 advanced-inbred images are not included at the author’s instruction; their numerical and linkage metadata are retained. No alternative access route has been specified.",
+  "image_sharing_scope": "275 F2 originals included; 198 advanced-inbred originals excluded by author instruction; numerical and linkage records retained"
+}

@@ -1,0 +1,6 @@
+﻿model,n_holdout,n_features,features,R2,RMSE,MAE
+Fixed_A_3features,55,3,Struct_num_gaps;Struct_gap_ratio;Color_S,0.3769678839263382,0.645633134342329,0.49312320057007614
+ENet_one_se_thr60,55,3,Color_S;Struct_num_gaps;Struct_gap_ratio,0.37696788392633795,0.6456331343423292,0.49312320057007614
+ENet_one_se_thr70,55,3,Color_S;Struct_num_gaps;Struct_gap_ratio,0.37696788392633795,0.6456331343423292,0.49312320057007614
+ENet_one_se_thr80,55,3,Color_S;Struct_num_gaps;Struct_gap_ratio,0.37696788392633795,0.6456331343423292,0.49312320057007614
+ENet_one_se_thr90,55,3,Color_S;Struct_num_gaps;Struct_gap_ratio,0.37696788392633795,0.6456331343423292,0.49312320057007614

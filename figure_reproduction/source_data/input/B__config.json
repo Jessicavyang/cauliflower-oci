@@ -1,0 +1,38 @@
+{
+  "workflow": "Stage3B nested CV: Stage2B 1-SE/min-MSE stability selection + OLS refit",
+  "analysis_classification": "FORMAL",
+  "input_sha256": {
+    "cauliflower_analysis_final2.csv": "a4cf7c6cf9d5cfd0e6877feaad987118899d53f0e34f15b980b5077b77a01625",
+    "Cauliflower_Final_Grading_Auto.csv": "4ed238326695703d143c7e5a73e33be3a89a4864738867e6e1ad515046fa3c80"
+  },
+  "reference_config_sha256": "4590680f65de16dfe3efab422737c2683246c145bffa2f7c84219e728451d631",
+  "reference_stage2b_code_sha256": "fe13f55c0d3baf432adc0da9568f09d412ad019016ea4396d14ce456291d3206",
+  "outer_folds": 5,
+  "outer_repeats": 3,
+  "stability_reps_per_outer_fold": 100,
+  "inner_cv": 10,
+  "sample_fraction": 0.8,
+  "thresholds": [
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "primary_threshold": 0.7,
+  "rules": [
+    "one_se",
+    "min_mse"
+  ],
+  "seed": 42,
+  "max_outer_folds": 0,
+  "bootstrap_reps": 2000,
+  "note": "Threshold 70% chosen after Stage2B exploration; sensitivity 60/80/90%. No formal false discovery bound for 80% subsampling.",
+  "metrics": "pooled out-of-fold R2/RMSE/MAE per complete outer repeat",
+  "target_standardization": "GR/DD parameters fitted separately for EACH outer training fold",
+  "final_prediction_model": "OLS with TRAIN-only standardized X; empty selection -> intercept-only",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0"
+}

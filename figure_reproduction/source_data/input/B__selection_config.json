@@ -1,0 +1,119 @@
+{
+  "analysis": "Stage2B Elastic Net stability selection",
+  "input_sha256": {
+    "cauliflower_analysis_final2.csv": "a4cf7c6cf9d5cfd0e6877feaad987118899d53f0e34f15b980b5077b77a01625",
+    "Cauliflower_Final_Grading_Auto.csv": "4ed238326695703d143c7e5a73e33be3a89a4864738867e6e1ad515046fa3c80"
+  },
+  "n_train": 220,
+  "n_test_excluded": 55,
+  "all_20_features": [
+    "Color_R",
+    "Color_G",
+    "Color_B",
+    "Color_H",
+    "Color_S",
+    "Color_V",
+    "Morph_Circularity",
+    "Morph_Solidity",
+    "Morph_Compactness",
+    "Morph_Ellipticity",
+    "Size_Area",
+    "Size_Perimeter",
+    "Struct_num_gaps",
+    "Struct_gap_ratio",
+    "Struct_mean_gap_area",
+    "Struct_max_gap_area",
+    "Struct_FractalDim",
+    "Text_Contrast",
+    "Text_Entropy",
+    "Text_ASM"
+  ],
+  "initial_train_candidate_pool": [
+    "Color_B",
+    "Color_S",
+    "Size_Perimeter",
+    "Struct_num_gaps",
+    "Struct_gap_ratio",
+    "Struct_max_gap_area",
+    "Text_Entropy",
+    "Text_ASM"
+  ],
+  "target": "(-Z_train(GR)+Z_train(DD))/2",
+  "target_parameters": {
+    "GR_mean": 3240.8135318181817,
+    "GR_sd_ddof1": 1347.763684289105,
+    "DD_mean": 25.12907272727272,
+    "DD_sd_ddof1": 14.483577838024704
+  },
+  "subsampling": "80% stratified without replacement; seed + repetition index",
+  "pearson": {
+    "GR_abs_r_min": 0.35,
+    "DD_abs_r_min": 0.4,
+    "two_sided_raw_p_max": 0.001,
+    "logic": "(abs(r_GR)>=cut_GR AND p_GR<p_cut) OR (abs(r_DD)>=cut_DD AND p_DD<p_cut)",
+    "re_screen_each_subsample": true,
+    "inner_cv_fold_training_only_screen": true
+  },
+  "inner_cv": {
+    "folds": 10,
+    "stratification": "quartiles of TRAIN-only mechanical composite",
+    "scaling": "X mean/SD fitted on each inner-fold training subset only",
+    "target_scaling": "GR/DD means and sample SDs fitted on each inner-fold training subset only",
+    "score": "mean fold MSE; hyperparameter tuning only"
+  },
+  "elastic_net": {
+    "alpha_grid_descending": [
+      1.0,
+      0.8184726679935516,
+      0.6698975082524824,
+      0.5482928008616416,
+      0.4487626715628848,
+      0.36729998108998824,
+      0.3006249954767037,
+      0.24605334211336707,
+      0.2013879353882576,
+      0.16483052077894017,
+      0.13490927610870573,
+      0.11041955515377107,
+      0.09037538790536812,
+      0.0739697848598588,
+      0.06054224716515766,
+      0.0495521745635916,
+      0.04055710051994503,
+      0.03319487826864207,
+      0.02716910058025663,
+      0.022237166238907796,
+      0.018200512780174996,
+      0.014896622254040558,
+      0.012192478160356691,
+      0.00997921012936025,
+      0.008167710739045757,
+      0.0066850479999863675,
+      0.005471529072213796,
+      0.004478296997739106,
+      0.0036653636918070405,
+      0.003
+    ],
+    "l1_ratio_grid": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95
+    ],
+    "selection_rule": "one_se",
+    "nonzero_cutoff_standardized_X_beta": 1e-06,
+    "secondary_practical_cutoff": 0.02,
+    "max_iter": 20000,
+    "tol": 1e-05
+  },
+  "seed": 42,
+  "software": {
+    "python": "3.12.16",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.1"
+  }
+}
