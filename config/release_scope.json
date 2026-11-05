@@ -1,0 +1,37 @@
+{
+  "package_version": "v1-local-preparation",
+  "published": false,
+  "DOI": null,
+  "primary_model": "ENet_one_se_thr70",
+  "freeze_id": "OCI_R1_COMPUTATIONAL_FREEZE_20261104_v1",
+  "F2_total": 275,
+  "F2_training": 220,
+  "F2_historical_test": 55,
+  "inbred_archive": 230,
+  "inbred_main": 222,
+  "inbred_excluded": 8,
+  "inbred_available_images": 198,
+  "inbred_exact_filename_links": 197,
+  "inbred_missing_images_within_main": 25,
+  "main_grade_counts": [
+    102,
+    92,
+    28
+  ],
+  "main_outside_training_range": 56,
+  "archive_grade_counts": [
+    107,
+    94,
+    29
+  ],
+  "archive_outside_training_range": 58,
+  "independent_gap_accuracy": "NOT_COMPLETED",
+  "repeated_image_acquisition": "NOT_COMPLETED",
+  "public_license": "AUTHOR_CONFIRMATION_PENDING",
+  "image_sharing": {
+    "F2": true,
+    "inbred": false
+  },
+  "inbred_images_in_public_deposit": 0,
+  "inbred_original_images_access": "NOT_SHARED_AUTHOR_INSTRUCTION"
+}

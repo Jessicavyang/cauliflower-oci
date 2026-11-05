@@ -1,0 +1,30 @@
+{
+  "status": "AUTHOR_FACTS_AND_FILE_EVIDENCE_NOT_NEW_MEASUREMENT_VALIDATION",
+  "GR": {
+    "definition": "force–time gradient",
+    "raw_export_field": "Gradient F-T 1:2",
+    "raw_export_unit": "g/sec",
+    "reported_unit": "gf s^-1",
+    "export_field_status": "VERIFIED_FROM_RESULTS_XLS",
+    "gram_force_interpretation": "AUTHOR_CONFIRMED",
+    "marker_interval": "PENDING",
+    "calculation_rule": "PENDING"
+  },
+  "DD": {
+    "definition": "Probe displacement relative to the 5 gf trigger reference at the 30,000 gf target load",
+    "unit": "mm",
+    "definition_status": "AUTHOR_CONFIRMED",
+    "software_zero_and_readout_or_interpolation": "PENDING"
+  },
+  "probe": "P/75",
+  "pre_test_test_post_test_speed_mm_s": [
+    10,
+    2,
+    10
+  ],
+  "acquisition_points_s": 200,
+  "compression_vs_photo_order": "AUTHOR_CONFIRMED_PHOTOGRAPHY_BEFORE_COMPRESSION",
+  "hemisphere_suffixes": "AUTHOR_CONFIRMED_-1_AND_-2_ARE_TWO_HALVES_OF_ONE_PLANT",
+  "selection_22_24": "AUTHOR_CONFIRMED_-1_DAMAGED_BEFORE_COMPRESSION_SO_-2_USED",
+  "data_values_changed": false
+}
